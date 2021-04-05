@@ -1,0 +1,43 @@
+baseURL = "https://screwmyprivacy.com/"
+languageCode = "en-us"
+title = "Screw My Privacy"
+theme = "hallo"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
+defaultContentLanguage = "en"
+
+[Author]
+name = "Ashley Ivy Hutson"
+
+[params]
+greeting = "Who needs privacy?"
+
+[[params.links]]
+iconset = "fas"
+icon = "envelope"
+title = "E-mail"
+url = "mailto:asheliahut@gmail.com"
+
+[[params.links]]
+icon = "linkedin"
+title = "LinkedIn"
+url = "https://www.linkedin.com/in/asheliahut"
+
+[[params.links]]
+icon = "twitter"
+title = "Twitter"
+url = "https://twitter.com/asheliahut"
+
+[[params.links]]
+icon = "facebook"
+title = "Facebook"
+url = "https://www.facebook.com/asheliahut"
+
+[[params.links]]
+icon = "github"
+title = "Github"
+url = "https://github.com/asheliahut"
+
+[[params.links]]
+icon = "docker"
+title = "Docker Hub"
+url = "https://hub.docker.com/u/asheliahut"
