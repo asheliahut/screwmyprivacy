@@ -20,6 +20,9 @@ jobs:
       - name: Build
         run: hugo --minify
 
+      - name: Add CNAME
+        run: echo "www.screwmyprivacy.com" > ./public/CNAME
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
