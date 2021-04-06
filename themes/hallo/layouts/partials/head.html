@@ -51,6 +51,17 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | relURL }}">
     <link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
 
+    <!-- Scripts -->
+    <script src="scripts/konami.js"></script>
+    <script>
+        var easter_egg = new Konami(function() { 
+            var hiddenElements = document.getElementsByClassName("hidden");
+            for(i = 0; i < hiddenElements.length; i++) {
+                hiddenElements[i].style.display = 'inline-block';
+            }
+        });
+    </script>
+
     <!-- RSS -->
     <link href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 
