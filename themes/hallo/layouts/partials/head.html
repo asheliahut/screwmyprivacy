@@ -16,7 +16,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Ashley Ivy Hutson's Personal Data" />
   <meta property="og:description" content="Screw privacy, Here is my data." />
-  <meta property="og:image" content="/images/portrait.jpg" />
+  <meta property="og:image" content="images/portrait.jpg" />
 
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image" />
@@ -24,7 +24,7 @@
   <meta property="twitter:url" content="https://www.screwmyprivacy.com" />
   <meta name="twitter:title" content="Ashley Ivy Hutson's Personal Data" />
   <meta name="twitter:description" content="Screw privacy, Here is my data." />
-  <meta name="twitter:image" content="/images/portrait.jpg" />
+  <meta name="twitter:image" content="images/portrait.jpg" />
 
     <title>
         {{- if .IsHome }}
@@ -39,16 +39,16 @@
     {{- $cssTarget		:= "css/style.css" }}
     {{- $cssOptions		:= cond ($inServerMode) (dict "targetPath" $cssTarget "enableSourceMap" true) (dict "targetPath" $cssTarget "outputStyle" "compressed") }}
     {{- $style			:= resources.Get "scss/hallo.scss" | resources.ExecuteAsTemplate "style.hallo.scss" . | toCSS $cssOptions }}
-    <link rel="stylesheet" href="{{ "/css/style.css" | relURL}}">
+    <link rel="stylesheet" href="{{ "css/style.css" }}">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
     <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/apple-touch-icon.png" | relURL }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ "/favicon-32x32.png" | relURL }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ "/favicon-16x16.png" | relURL }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | relURL }}">
     <link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
 
     <!-- Scripts -->
