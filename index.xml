@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Screw My Privacy</title>
-    <link>https://screwmyprivacy.com/</link>
+    <link>//screwmyprivacy.com/</link>
     <description>Recent content on Screw My Privacy</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://screwmyprivacy.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="//screwmyprivacy.com/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
