@@ -1,4 +1,4 @@
-baseURL = "https://screwmyprivacy.com/"
+baseURL = "//screwmyprivacy.com"
 languageCode = "en-us"
 title = "Screw My Privacy"
 theme = "hallo"
