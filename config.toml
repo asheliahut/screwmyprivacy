@@ -41,3 +41,8 @@ url = "https://github.com/asheliahut"
 icon = "docker"
 title = "Docker Hub"
 url = "https://hub.docker.com/u/asheliahut"
+
+[[params.links]]
+icon = "ethereum"
+title = "Zerion"
+url = "https://app.zerion.io/ashelia.eth"
