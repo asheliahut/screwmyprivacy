@@ -162,6 +162,7 @@ figcaption {
 
 .card-front .img-bg {
   clip-path: polygon(0 20%, 100% 40%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 20%, 100% 40%, 100% 100%, 0 100%);
 }
 
 .card-front .img-bg::before {
@@ -185,6 +186,7 @@ figcaption {
 
 .card-back .img-bg {
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 60%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 60%);
 }
 
 /* hover state */
